@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": "13",
+      "productName": "qwe",
+      "productPrice": 12345,
+      "productColor": "red",
+      "availableQuantity": 2345,
+      "supplier": {
+        "supplierName": "adf",
+        "supplierEmail": "gmai",
+        "supplierAddress": "asd",
+        "pincode": 5432
+      }
+    },
+    {
+      "id": "2",
+      "productName": "Mouse dell",
+      "productPrice": 1200,
+      "productColor": "black",
+      "availableQuantity": 12000,
+      "supplier": {
+        "supplierName": "SS",
+        "supplierEmail": "ss@gmail.com",
+        "supplierAddress": "Pune",
+        "pincode": 32332
+      }
+    },
+    {
+      "id": "3",
+      "productName": "Key Board",
+      "productPrice": 1300,
+      "productColor": "Black",
+      "availableQuantity": 1288,
+      "supplier": {
+        "supplierName": "DD",
+        "supplierEmail": "dd@gmail.com",
+        "supplierAddress": "KN",
+        "pincode": 432345
+      }
+    },
+    {
+      "id": "4",
+      "productName": "KeyBoaed",
+      "productPrice": 1200,
+      "productColor": "Black",
+      "availableQuantity": 100,
+      "supplier": {
+        "supplierName": "SD",
+        "supplierEmail": "sd@gmail.com",
+        "supplierAddress": "Warje",
+        "pincode": 543211
+      }
+    }
+  ]
+}

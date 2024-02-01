@@ -1,0 +1,34 @@
+<p>view-product works!</p>
+<table class="table table-hover">
+    <thead class="thead-dark">
+      <tr>
+       <th>ID</th>
+        <th>Product Name</th>
+        <th>Product Price</th>
+        <th>Product Color</th>
+        <th>Product Quantity</th>
+        <th>Supplier Name</th>
+        <th>Supplier Email</th>
+        <th>Supplier Address</th>
+        <th>Supplier Pincode</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of products">
+            <td>{{p.productId}}</td>
+            <td>{{p.productName}}</td>
+            <td>{{p.productPrice}}</td>
+            <td>{{p.productColor}}</td>
+            <td>{{p.availableQuantity}}</td>
+            <td>{{p.supplier.supplierName}}</td>
+            <td>{{p.supplier.supplierEmail}}</td>
+            <td>{{p.supplier.supplierAddress}}</td>
+            <td>{{p.supplier.pincode}}</td>
+            <td>
+                <button class="btn btn-primary" (click)="onEdit(p)"><i class="fa fa-pencil-square" aria-hidden="true"></i></button>
+                <button class="btn btn-danger" (click)="onDelete(p.productId)"><i class=" fa fa-sharp fa-solid fa-trash"></i></button>
+            </td>
+        </tr>
+    </tbody>
+</table>

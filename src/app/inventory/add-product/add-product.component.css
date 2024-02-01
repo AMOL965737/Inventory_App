@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+.inputContainer{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-color: chocolate;
+    border-width: 3px;
+    background-color: grey;
+}
+.inputGroup
+    {
+       display: flex;
+       justify-content: space-around;
+    }
+    input{
+    margin-top: 10px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    background-color: crimson;
+   }
+   input::placeholder{
+    color: black;
+   }
+   button{
+    margin-top: 20px;
+    width: 400px;
+   }
